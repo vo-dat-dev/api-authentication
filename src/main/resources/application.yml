@@ -15,3 +15,7 @@ spring:
 server:
   address: localhost
   port: 8083
+
+jwt:
+  secret: your-secret-key-here-make-it-long-and-secure
+  expiration: 86400000 # 24 hours in milliseconds
