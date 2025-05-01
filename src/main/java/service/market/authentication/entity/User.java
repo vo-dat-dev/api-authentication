@@ -57,7 +57,7 @@ public class User implements UserDetails {
     @Column(name = "updated_at")
     private LocalDateTime updatedAt;
 
-    @Column(name = "avatar")
+    @Column(name = "avatar", nullable = true)
     private String avatar;
 
     @Override
