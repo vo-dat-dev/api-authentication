@@ -1,4 +1,4 @@
-package service.market.authentication.config;
+package service.market.authentication.config.security;
 
 import io.jsonwebtoken.*;
 import io.jsonwebtoken.security.Keys;

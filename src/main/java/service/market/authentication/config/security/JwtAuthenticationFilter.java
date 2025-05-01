@@ -1,4 +1,4 @@
-package service.market.authentication.config;
+package service.market.authentication.config.security;
 
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;

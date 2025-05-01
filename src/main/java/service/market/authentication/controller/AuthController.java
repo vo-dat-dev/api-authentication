@@ -9,7 +9,7 @@ import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.web.bind.annotation.*;
-import service.market.authentication.config.JwtUtils;
+import service.market.authentication.config.security.JwtUtils;
 import service.market.authentication.dto.LoginRequest;
 import service.market.authentication.dto.LoginResponse;
 import service.market.authentication.dto.RegisterRequest;
