@@ -9,7 +9,7 @@ import lombok.*;
 @AllArgsConstructor
 @NoArgsConstructor
 public class LoginResponse {
-    @JsonProperty("token")
+    @JsonProperty("access_token")
     private String token;
     @JsonProperty("refresh_token")
     private String refreshToken;
